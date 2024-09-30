@@ -5,6 +5,12 @@ class Auto {
     private String modello;
     private double prezzo;
 
+    public Auto (String marc, String mod, double prez){
+        marca = marc;
+        modello = mod;
+        prezzo = prez;
+    }
+
     public String getMarca(){
         return marca;
     }
@@ -17,7 +23,6 @@ class Auto {
         return prezzo;
     }
 
-    public Auto(String marca, String modello, double prezzo){
 
-    }
+
 }
