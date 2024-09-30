@@ -14,13 +14,22 @@ class Auto {
     public String getMarca(){
         return marca;
     }
+    public void setMarca(String marc){
+        marca = marc;
+    }
 
     public String getModello(){
         return modello;
     }
+    public void setModello(String mod){
+        modello = mod;
+    }
 
     public double getPrezzo(){
         return prezzo;
+    }
+    public void setPrezzo(double prez){
+        prezzo = prez;
     }
 
 
